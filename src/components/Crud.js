@@ -69,7 +69,6 @@ function Crud({ navigate }) {
         setIndex("");
     };
 
-    const buttonText = index !== "" ? "Update" : "Submit";
     return (
         <div className="container">
             <h3 className="alert alert-primary text-center" style={{marginTop : "100px"}}>Contact Form</h3>
